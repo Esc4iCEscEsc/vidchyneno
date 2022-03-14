@@ -1,0 +1,13 @@
+[package]
+name = "vidchyneno"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.17.0", features = ["full"] }
+redis = { version = "0.21.5", features = ["tokio-comp"] }
+futures = { version = "0.3.21" }
+mkdirp = { version = "1.0.0" }
+filenamify = { version = "0.1.0" }
